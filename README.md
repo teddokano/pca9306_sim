@@ -25,6 +25,7 @@ It will show the An pin (a SOURCE termial) follows the GATE voltage below its Vg
 The simulation uses a 1kΩ pull-up resistor on B-side and 1MΩ dummy load on A-side. The 1MΩ dummy load is for just fixing the An voltage. 
  
 ![pca9306_pass_transistor.asc](https://github.com/teddokano/pca9306_sim/blob/main/readme_img/pca9306_pass_transistor.asc.png)
+![pca9306_pass_transistor.png](https://github.com/teddokano/pca9306_sim/blob/main/pca9306_pass_transistor.png)
 
 ### pca9306_static_behavior.asc
 `pca9306_static_behavior.asc` simulates to help understanding purpose of the reference transistor.  
@@ -32,12 +33,14 @@ The simulation will show the reference transistor works as a diode to make bias 
 With the bias voltage from the reference transistor, the An pin is kept to Vcc(A) voltage.  
 
 ![pca9306_static_behavior.asc](https://github.com/teddokano/pca9306_sim/blob/main/readme_img/pca9306_static_behavior.asc.png)
+![pca9306_static_behavior.png](https://github.com/teddokano/pca9306_sim/blob/main/pca9306_static_behavior.png)
 
 ### pca9306_operation.asc
 `pca9306_operation.asc` shows how the both direction voltage translation is performed.  
 Signals driven LOW from B-side (Vcc(B) = 3.3V) and A-side (Vcc(A) = 2.0V) alternatively. The HIGH voltage is kept on its Vcc on both side.  
 
 ![pca9306_operation.asc](https://github.com/teddokano/pca9306_sim/blob/main/readme_img/pca9306_operation.asc.png)
+![pca9306_operation.png](https://github.com/teddokano/pca9306_sim/blob/main/pca9306_operation.png)
 
 
 # References
